@@ -22,8 +22,17 @@ Download and install the following libraries:
 ## Topic_Modeling
 
 ### The following steps will explain how to install the required library and requirements.
+Posts collected from Twitter and Reddit must be processed to anonymize any sensitive information (people's names, geographic locations, email addresses and cell phone numbers), and any hyperlinks must be removed. This step was done with the help of the spaCy library.
 
 ### The following steps will explain how to use  NLP_topic_modeling.
+
+#### BERTopic
+The first topic modeling technique used was BERTopic.
+
+#### LSA/LSI
+The second topic modeling technique chosen was Latent Semantic Analysis/Indexing.
+###### Video LSA
+For more information about LSA technique a video explanation can be found in the following link: ***insertar link de video de yt***
 
 ### To know to how topic_modeling read topic_modeling.md
 
@@ -34,7 +43,3 @@ Download and install the following libraries:
 ### The following steps will explain how to use the Web page for  NLP_topic_modeling.
 
 ### To know to how the web page is implemented read web_page.md
-
-
-## Video LSA
-The link for the video explanation of the selected topic modelling technique (Latent Semantic Analysis/Indexing) can be found in the following link: ***insertar link de video de yt***
