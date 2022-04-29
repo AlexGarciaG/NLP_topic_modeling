@@ -30,9 +30,7 @@ Posts collected from Twitter and Reddit must be processed to anonymize any sensi
 The first topic modeling technique used was BERTopic.
 
 #### LSA/LSI
-The second topic modeling technique chosen was Latent Semantic Analysis/Indexing.
-###### Video LSA
-For more information about LSA technique a video explanation can be found in the following link: ***insertar link de video de yt***
+The second topic modeling technique chosen was Latent Semantic Analysis/Indexing. For more information about LSA technique a video explanation can be found in the following link: ***insertar link de video de yt***
 
 ### To know to how topic_modeling read topic_modeling.md
 
