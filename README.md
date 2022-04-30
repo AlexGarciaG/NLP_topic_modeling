@@ -11,19 +11,29 @@ Topic modeling is an unsupervised machine learning technique that discovers rele
 
 ## Install
 Download and install the following libraries:
-!pip install praw,
-!pip install tweepy,
-!pip install spacy,
-!pip install facebook-sdk,
-!pip install requests,
-!pip install bertopic,
-!pip install gensim
 
+```
+
+pip install praw
+
+pip install tweepy
+
+pip install spacy
+
+pip install facebook-sdk
+
+pip install requests
+
+pip install bertopic
+
+pip install gensim
+
+```
 ## Topic_Modelling
 The objective of the project is to use topic modelling techniques to find the most frequent topic that was generated throughout different posts of users in different online platforms (Reddit, Twitter, YouTube, Facebook). Two different techniques were applied: BERTopic and Latent Semantic Analysis/Indexing.
 
 ### The following steps will explain how to install the required library and requirements.
-Firstly, posts collected from Twitter and Reddit must be processed to anonymize any sensitive information (people's names, geographic locations, email addresses and cell phone numbers), and any hyperlinks must be removed. This step was done with the help of the spaCy library.
+Firstly, posts collected must be processed to anonymize any sensitive information (people's names, geographic locations, email addresses and cell phone numbers), and any hyperlinks must be removed. This step was done with the help of the spaCy library.
 
 ### The following steps will explain how to use  NLP_topic_modelling.
 
