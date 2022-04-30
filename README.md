@@ -1,4 +1,4 @@
-# NLP_topic_modeling
+# NLP_topic_modelling
 
 Topic modeling is an unsupervised machine learning technique that discovers relevant topics within a text. In this project will be investigate and implement various topic modeling techniques.
 
@@ -19,18 +19,20 @@ Download and install the following libraries:
 !pip install bertopic,
 !pip install gensim
 
-## Topic_Modeling
+## Topic_Modelling
+The objective of topic modelling is to find the most frequent topic that was generated throughout different posts of users in different online platforms. Two different techniques were applied: BERTopic and Latent Semantic Analysis/Indexing.
 
 ### The following steps will explain how to install the required library and requirements.
-Posts collected from Twitter and Reddit must be processed to anonymize any sensitive information (people's names, geographic locations, email addresses and cell phone numbers), and any hyperlinks must be removed. This step was done with the help of the spaCy library.
+Firstly, posts collected from Twitter and Reddit must be processed to anonymize any sensitive information (people's names, geographic locations, email addresses and cell phone numbers), and any hyperlinks must be removed. This step was done with the help of the spaCy library.
 
-### The following steps will explain how to use  NLP_topic_modeling.
+### The following steps will explain how to use  NLP_topic_modelling.
 
 #### BERTopic
-The first topic modeling technique used was BERTopic.
+The first topic modeling technique used was BERTopic. For this step the bertopic library was installed and used. BERTopic supports guided, (semi-) supervised, and dynamic topic modeling. The input received was the dataframe containing the different posts from a user over time. The output generated was the list of topic words most commonly found throughout the posts made by the user.
 
 #### LSA/LSI
-The second topic modeling technique chosen was Latent Semantic Analysis/Indexing. For more information about LSA technique a video explanation can be found in the following link: ***insertar link de video de yt***
+The second topic modeling technique chosen was Latent Semantic Analysis/Indexing. The library used in this step was gensim, a library specifically focused on topic modelling, document indexing and similarity retrieval with large corpora. The input received was the dataframe containing the different posts from a user over time. The output generated was the list of topic words most commonly found throughout the posts made by the user.
+For more information about LSA technique a video explanation can be found in the following link: ***insertar link de video de yt***
 
 ### To know to how topic_modeling read topic_modeling.md
 
