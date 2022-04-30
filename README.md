@@ -48,11 +48,3 @@ For more information about LSA technique a video explanation can be found in the
 
 ## Aditional Functionalities
 In addition to twitter and reddit, information was also extracted from Facebook and YouTube. Also, a web page was designed.
-
-### WebPage
-
-#### The following steps will explain how to install the required library and requirements.
-
-#### The following steps will explain how to use the Web page for  NLP_topic_modeling.
-
-#### To know to how the web page is implemented read web_page.md
