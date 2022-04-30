@@ -42,7 +42,7 @@ The first topic modeling technique used was BERTopic. For this step the bertopic
 
 #### LSA/LSI
 The second topic modeling technique chosen was Latent Semantic Analysis/Indexing. The library used in this step was gensim, a library specifically focused on topic modelling, document indexing and similarity retrieval with large corpora. The input received was the dataframe containing the different posts from a user over time. The output generated was the list of topic words most commonly found throughout the posts made by the user.
-For more information about LSA technique a video explanation can be found in the following link: ***insertar link de video de yt***
+For more information about LSA technique a video explanation can be found in the following link: https://youtu.be/_muodj2Qv6k
 
 ### To know to how topic_modeling read topic_modeling.md
 
