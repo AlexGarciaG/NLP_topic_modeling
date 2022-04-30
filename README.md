@@ -20,7 +20,7 @@ Download and install the following libraries:
 !pip install gensim
 
 ## Topic_Modelling
-The objective of topic modelling is to find the most frequent topic that was generated throughout different posts of users in different online platforms. Two different techniques were applied: BERTopic and Latent Semantic Analysis/Indexing.
+The objective of the project is to use topic modelling techniques to find the most frequent topic that was generated throughout different posts of users in different online platforms (Reddit, Twitter, YouTube, Facebook). Two different techniques were applied: BERTopic and Latent Semantic Analysis/Indexing.
 
 ### The following steps will explain how to install the required library and requirements.
 Firstly, posts collected from Twitter and Reddit must be processed to anonymize any sensitive information (people's names, geographic locations, email addresses and cell phone numbers), and any hyperlinks must be removed. This step was done with the help of the spaCy library.
