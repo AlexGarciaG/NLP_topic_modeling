@@ -38,6 +38,16 @@ pip install django-crispy-forms
 
 pip install django-widget-tweaks
 
+pip install pymysql
+
+pip install pandas
+
+python -m spacy download en_core_web_sm
+
+pip install --upgrade google-api-python-client
+
+pip install --upgrade google-auth-oauthlib google-auth-httplib2
+
 ```
 ## Topic_Modelling
 The objective of the project is to use topic modelling techniques to find the most frequent topic that was generated throughout different posts of users in different online platforms (Reddit, Twitter, YouTube, Facebook). Two different techniques were applied: BERTopic and Latent Semantic Analysis/Indexing.
