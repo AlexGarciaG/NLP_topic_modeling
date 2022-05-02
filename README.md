@@ -28,6 +28,16 @@ pip install bertopic
 
 pip install gensim
 
+pip install wordcloud
+
+pip install kaleido
+
+pip install django
+
+pip install django-crispy-forms
+
+pip install django-widget-tweaks
+
 ```
 ## Topic_Modelling
 The objective of the project is to use topic modelling techniques to find the most frequent topic that was generated throughout different posts of users in different online platforms (Reddit, Twitter, YouTube, Facebook). Two different techniques were applied: BERTopic and Latent Semantic Analysis/Indexing.
