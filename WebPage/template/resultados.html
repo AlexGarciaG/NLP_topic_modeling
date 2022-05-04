@@ -1,0 +1,92 @@
+{% include "top.html" %}
+{% include "topBar.html" %}
+<div class="row">
+    <div class="col s11 offset-s1">
+        <div class="row">
+            <div class="col s4">
+                <h3>Resultados, paciente</h3>
+            </div>
+            <div class="col s4">
+                <h3><i>user</i></h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col 12">
+                <h5>
+                    Interpretación de resultados:
+                </h5>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col s6">
+                <p>
+                    Dados los datos proporcionados, el posible
+                </p>
+                <p>
+                    diagnóstico basado en inteligencia artificial, es el 
+                </p>
+                <p>
+                    siguiente:
+                </p>
+                <p>En un:</p>
+                <h2>57.1%</h2>
+                <p>Puede que los síntomas se deban a:</p>
+                <h2>Insuficiencia cardiáca</h2>
+
+            </div>
+            <div class="col s6">
+                {{ graph|safe }}
+                
+            </div>
+        </div>
+        <div class="row">
+            <div class="col s6">
+                <h2>Recomendaciones</h2>
+                <p>Es recomendado realizar los </p>
+                <p>siguientes estudios:</p>
+                <h2>Electrocardiograma</h2>
+                <p>Estudios adicionales:</p>
+                <h2>Ecocardiograma</h2>
+                <h2>Análisis sanguíneo general</h2>
+    
+            </div>
+
+            <div class="col s6">
+                <h2>Laboratorios clínicos cerca de ti</h2>
+                {% load static %}<img src='{% static "/images/c5e73c3636a49adb553281520971d0f0e6d489da.webp" %}' alt="home" class=" responsive-img"/>
+                <p class="center-align">
+
+                    <a href="nosotros" class="waves-effect waves-light btn white-text blue">Visitar</a>
+                </p>
+                {% load static %}<img src='{% static "/images/LOGO-CHOPO-1.png" %}' alt="home" class=" responsive-img"/>
+                
+                <p class="center-align">
+                    <a href="nosotros" class="waves-effect waves-light btn white-text blue">Visitar</a>
+                </p>                
+            </div>
+        </div>
+        <div class="row">
+            <div class="col s12">
+                <h2>Directorio de profesionales</h2>
+                <h4>Cardiólogos:</h4>
+                <p>Dr. XXXX </p>
+                <p>Tel: (442) 123 4467            </p>
+                <p>Dir: Hospital General</p>
+    
+                <h4>Médico general:</h4>
+                <p>Dr. XXXX </p>
+                <p>Tel: (442) 123 4467            </p>
+                <p>Dir: Hospital General</p>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col s12">
+            <h2>Como funciona</h2>
+            <p class="center-align">
+                <a href="comoFunciona" class="waves-effect waves-light btn white-text blue">Visitar</a>
+            </p>        
+        </div>
+    </div>
+</div>
+{% include "button.html" %}

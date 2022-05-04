@@ -1,0 +1,55 @@
+{% include "top.html" %}
+{% include "topBar.html" %}
+
+<form action="chose_topic" method="get">
+    <div class="row">
+        <div class="col s3">
+            User:
+            <div class="input-field">
+                <input  id = "name" name="name" type="text" class="validate" required >
+            </div>
+        </div>
+        <div class="col s3">
+            Max videos:
+            <div class="input-field">
+                <input  id = "maxNumber" name="maxNumber" type="number" class="validate" required min="100" max="500"> 
+            </div>
+        </div>
+    </div>
+    <div  class="row">
+        <div class="col s3">
+            Number of top topics:
+            <div class="input-field">
+                <input  id = "maxNumberTop" name="maxNumberTop" type="number" class="validate" required min="5"> 
+            </div>
+        </div>
+        <div class="col s3">
+            Select topic modeling:
+            <div class="input-field ">
+                <select id = "topic_modeling" name="topic_modeling" required class="browser-default">
+                    <option value="" disabled selected>Choose your option</option>
+                    <option value="1">Bert topic</option>
+                    <option value="2">Dynamic Bert topic</option>
+                    <option value="3">LSA</option>
+                </select>
+            </div>
+        </div>
+                
+        <div class="col s3" hidden>
+            <div class="input-field" hidden>
+                <select id = "how_to_get_data" name="how_to_get_data" required class="browser-default" hidden>
+                    <option value="1">tweets</option>
+                    <option value="2">reddit</option>
+                    <option value="3">facebook</option>
+                    <option value="4" selected>videos</option>
+
+                </select>
+            </div>
+        </div>
+    </div>
+    <label for="submit" class="white-text waves-effect waves-light btn white-text blue">De acuerdo</label><br>
+    <input id="submit" type="submit" hidden>
+    
+</form>
+
+{% include "button.html" %}

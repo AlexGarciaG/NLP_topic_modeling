@@ -1,0 +1,11 @@
+{% include "top.html" %}
+{% include "topBar.html" %}
+<h4>Funcionamento acutal</h4>
+<p>La pagina web no reacciona a las entradas al usuario, es demostrativa del cual seria las funcionalidades esperadas.</p>
+<p>Se cuenta con diferentes inteligencias artificiales con la capacidad de predecir si tienes alguna enfermedad de corazón. La precisión de nuestros modelos se puede apreciar en la figura siguiente.</p>
+{% load static %}<img src='{% static "/images/Accuracy.png" %}' alt="home" class=" responsive-img"/>
+<p>El motivo de tener diferentes inteligencias artificiales es para determinar si tienes una enfermedad mediante el consenso de la mayoría, permitiendo tener datos más confiables. </p>
+<p>
+    Muestro modelos utilizan la base de datos  <a href="https://www.kaggle.com/code/ahmedsta/heart-disease-prediction/data">heart disease prediction</a> de keras con 319,795 instancias.
+</p>
+{% include "button.html" %}

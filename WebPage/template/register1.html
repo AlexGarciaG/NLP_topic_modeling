@@ -1,0 +1,174 @@
+{% include "top.html" %}
+{% include "topBar.html" %}
+<form action="register2">
+    <div class="row">
+        <div class="col s11 offset-s1">
+            <h3>Datos generales del paciente:</h3>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col s11 offset-s2">
+            <h4>Estilo de vida:</h4>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col s11 offset-s2">
+            <h5>Sexo biológico:</h5>
+            <p>
+                <label>
+                  <input name="group1" type="radio" required />
+                  <span>Masculino</span>
+                </label>
+            </p>
+            <p>
+                <label>
+                  <input name="group1" type="radio" required />
+                  <span>Femenino</span>
+                </label>
+            </p>
+            
+        </div>
+    </div>
+    <div class="row">
+        <div class="col s11 offset-s2">
+            <h5>Nivel de actividad física:</h5>
+            <p>
+                <label>
+                  <input name="group2" type="radio"  required/>
+                  <span>Menos de 7 horas a la semana</span>
+                </label>
+            </p>
+            <p>
+                <label>
+                  <input name="group2" type="radio" required/>
+                  <span>Entre 7 y 14 horas semanales</span>
+                </label>
+            </p>
+            <p>
+                <label>
+                  <input name="group2" type="radio" required />
+                  <span>Más de 14 horas semanales</span>
+                </label>
+            </p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col s11 offset-s2">
+            <h5>Actividad física en el trabajo:</h5>
+            <p>
+                <label>
+                  <input name="group3" type="radio" required />
+                  <span>Trabajo sedentario, baja actividad física</span>
+                </label>
+            </p>
+            <p>
+                <label>
+                  <input name="group3" type="radio" required/>
+                  <span>Trabajo físico, de intensidad moderada a alta</span>
+                </label>
+            </p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col s11 offset-s2">
+            <h5>Peso y altura:</h5>
+            <div class="row">
+                <div class="col s3">
+                    Peso:
+                    <div class="input-field inline">
+                      <input id="peso" type="number" class="validate" required>
+                    </div>
+                </div>
+                <div class="col s3">
+                    Altura:
+                    <div class="input-field inline">
+                      <input id="altura" type="number" class="validate" required>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col s11 offset-s2">
+            <h5>Fumador:</h5>
+            <p>
+                <label>
+                  <input name="group4" type="radio" required />
+                  <span>Si</span>
+                </label>
+            </p>
+            <p>
+                <label>
+                  <input name="group4" type="radio" required/>
+                  <span>No</span>
+                </label>
+            </p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col s11 offset-s2">
+            <h5>¿Cuántas veces tomas bebidas alcohólicas por semana?</h5>
+
+            <p>
+                <label>
+                  <input name="group5" type="radio" required />
+                  <span>No tomo</span>
+                </label>
+            </p>
+            <p>
+                <label>
+                  <input name="group5" type="radio" required/>
+                  <span>Entre 1 y 3 veces por semana</span>
+                </label>
+            </p>
+            <p>
+                <label>
+                  <input name="group5" type="radio" required />
+                  <span>Más de 5 veces por semanales</span>
+                </label>
+            </p>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col s11 offset-s2">
+            <h5>¿Consumes drogas ilícitas?</h5>
+            <p>
+                <label>
+                  <input name="group6" type="radio" required />
+                  <span>No</span>
+                </label>
+            </p>
+            <p>
+                <div class="row">
+                    <div class="col s1">
+                        <label>
+                            <br>
+                            <input name="group6" type="radio" required />
+                            <span>Si</span>
+        
+                        </label>
+                    </div>
+                    <div class="col s3">
+                        Cual:
+                        <div class="input-field inline">
+                          <input  type="text" class="validate" >
+                        </div>
+                    </div>
+
+                </div>
+
+            </p>
+        </div>
+    </div>
+    
+
+    <p class="center-align">
+        <label for="submit" class="white-text waves-effect waves-light btn white-text blue">Siguiente</label><br>
+        <input id="submit" type="submit" hidden>
+    </p>
+
+</form>
+
+{% include "button.html" %}
